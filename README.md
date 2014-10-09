@@ -2,10 +2,14 @@ BashToC:
 
 NOTE that this scprit just make from your scrpit c program like
 
-#define SCRPIT "echo Hello world"
+"#define SCRPIT "echo Hello world"
+
 int main()
+
 {
+
  syste(SCRPIT)
+
 }
 
 This script will convert your bash script to C code and make executable 
