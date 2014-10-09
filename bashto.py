@@ -1,6 +1,7 @@
 #!/usr/bin/python
-
 import sys,os
+
+
 err_noparam ="""Error:No parameters
 Please, use --help to view HOW TO USE info"""
 
@@ -22,6 +23,7 @@ int main()
     return 0;
 }
 """
+
 def file_parser(*args):
   if len(args) == 1:#If script have 1 arg
     #print(args[0])    
@@ -54,7 +56,7 @@ def file_parser(*args):
     file.close()#Close file
     os.system("gcc "+str(args[1])+".c"+" -o "+str(args[1])+".out") #Run gcc + filename.c with output filename.out
     os.system("rm "+str(args[1])+".c")#remove our filename.c
-  
+#Mabye script need more argv
 def main():
   if len(sys.argv) < 2:#If script have less that 2 argv
     print(err_noparam)#Print Error message
