@@ -1,4 +1,4 @@
-BashToC:
+#BashToC:
 
 NOTE that this scprit just make from your scrpit c program like
 
@@ -8,7 +8,7 @@ int main()
 
 {
 
- syste(SCRPIT)
+ system(SCRPIT);
 
 }
 
