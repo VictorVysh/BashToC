@@ -1,6 +1,6 @@
 #BashToC:
 
-NOTE that this scprit just make from your scrpit c program like
+NOTE that this scprit just make from your scrpit -> C program like
 
 "#define SCRPIT "echo Hello world"
 
